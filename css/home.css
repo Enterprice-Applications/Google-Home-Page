@@ -1,0 +1,53 @@
+
+
+
+.navbar{
+    display:block;
+    float:right;
+    height: 50px;
+    padding: 10px;
+}
+.navbar-contain{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+
+}
+
+.navbar-contain > a {
+    text-decoration: none;
+    color: black;
+}
+.navbar-contain > a:hover{
+    text-decoration: underline;
+}
+.app, .acccount {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.account > img {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    
+
+}
+.app:hover, 
+.account:hover{
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    
+}
+.app > i {
+    font-size: 17px;
+    color: #5f6368;
+}
