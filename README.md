@@ -16,6 +16,7 @@ This is a simple project that replicates the design of the Google homepage using
 - Basic search functionality.
 - Designed using HTML and CSS only.
 - This clone works as real google search engine.
+- Responsive web designing
 
 # Technologies Used
 
